@@ -7,7 +7,7 @@ db:{
     options:{
         dialect:process.env.DIALECT || 'sqlite',
         host:process.env.HOST || 'localhost',
-        storage:'./tabtracker.sqlite'
+        storage:'./tabtrack.sqlite'
 
     }
 }
